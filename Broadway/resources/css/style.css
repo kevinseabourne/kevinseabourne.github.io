@@ -1,0 +1,108 @@
+body {
+  width:                100%;
+  height              : 1290px;
+  margin              : 0;
+  margin-top          : 50px;
+  padding             : 0;
+  background-color    : white;
+  background-repeat   : no-repeat;
+  background-position : center;
+  text-align          : center;
+  font-family         : helvetica,
+                         sans-serif;
+}
+
+#wrapper {
+  min-width: 100%;
+  height    : 296.68px;
+  color     : white;
+  font-size : 70px;
+}
+
+h1 {
+  position    : relative;
+  margin-top  : -287px;
+  color       : white;
+  text-align  : center;
+  font-size   : 70px;
+  font-weight : bold;
+}
+
+a {
+  position : relative;
+  color    : white;
+}
+
+.nav {
+  height: auto;
+  width: auto;
+  margin-top: -130px;
+}
+
+h2 {
+  margin-top  : 26.560px;
+  color       : black;
+  font-size   : 32px;
+  font-weight : bold;
+}
+
+p {
+  font-size : 14px;
+}
+
+h3 {
+  position    : relative;
+  font-size   : 23px;
+  font-weight : bold;
+}
+
+.move {
+  margin-top : 23px;
+}
+
+.other {
+  width  : auto;
+  height : 29px;
+}
+
+#ok {
+  width               : 2000px;
+  min-width:          100%;
+  height              : 26px;
+  background-image    : url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+  background-repeat   : no-repeat;
+  background-size     : auto;
+}
+
+h4 {
+  position    : relative;
+  margin-top  : -26px;
+  color       : white;
+  font-size   : 23px;
+  font-weight : bold;
+}
+
+/* Footer Div */
+
+#bottom {
+  height           : 16px;
+  background-color : dimgray;
+  width: auto;
+}
+
+/* copyright tag */
+
+#bottom p {
+  color      : white;
+  text-align : left;
+  font-size  : 11px;
+  width: auto;
+}
+
+/* Footer Links */
+
+#bottom a {
+  text-align : left;
+  font-size  : 16px;
+  width: auto;
+}
