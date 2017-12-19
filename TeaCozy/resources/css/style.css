@@ -95,6 +95,12 @@ h2 {
   font-weight : bold;
 }
 
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+
 /* Store section */
 
 #store {

@@ -1,0 +1,269 @@
+/* Universal Section */
+
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.67em 0;
+}
+
+li {
+  display: list-item;
+}
+
+div {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+/* Header Content  */
+
+
+header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+nav {
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+}
+
+nav img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex.container {
+  color: black;
+  display: flex;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+.small-menu li {
+  display: none;
+}
+
+
+/* Responsive Content */
+
+
+@media only screen and (max-width: 1024px) {
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+   nav.container {
+    max-width: 100%;
+  }
+
+  .main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .main-banner h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu li {
+    display: none;
+  }
+
+  .small-menu li {
+    display: block;
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+   {
+  display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  header .flex {
+    justify-content: center;
+  }
+
+  .main-banner {
+      padding: 0 1rem;
+      margin: 9rem auto 0 auto;
+      width: 100%;
+      text-align: center;
+  }
+
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+}
+
+/* Supporting Section */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+/* Responsive Content */
+
+@media only screen and (max-width: 560px) {
+  .service {
+    height: auto;
+    margin: 0.77rem;
+    font-size: 0.77rem;
+  }
+
+.supporting {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+ }
+}
+
+/* Info Section */
+
+.info {
+  text-align: left;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 560px) {
+  .info {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .title {
+    max-width: 100%;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+    margin-left: 5%;
+  }
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: azure;
+
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 560px) {
+  footer .copy {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+}
